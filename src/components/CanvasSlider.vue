@@ -1,8 +1,8 @@
 <template>
-    <section id="slider" class="slider-element slider-parallax full-screen with-header swiper_wrapper clearfix">
+    <section id="slider" class="slider-element slider-parallax full-screen with-header clearfix">
         <div class="slider-parallax-inner">
             <div class="swiper-container swiper-parent">
-                <div class="swiper-wrapper">
+                <div class="">
                     <div class="swiper-slide dark" id="slide1">
                         <div class="container clearfix">
                             <div class="slider-caption slider-caption-center">
@@ -30,10 +30,12 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
     h2 {
-        margin: 170px 0 100px 0;
+        padding: 170px 0 100px 0;
     }
     #slide1 {
         background-image: url('/images/slider/swiper/1.jpg');
         height: 100vh;
+        width: 100%;
+        background-position: 50% 20% !important;
     }
 </style>
