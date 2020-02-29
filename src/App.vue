@@ -1,29 +1,30 @@
 <template>
-  <div id="app">
-    <HelloWorld
-      title="organomad"
-      subtitle="organic beats & organs" />
-  </div>
+    <div id="wrapper" class="clearfix">
+        <canvas-slider
+                title="organomad"
+                subtitle="coming soon" />
+    </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CanvasSlider from './components/CanvasSlider.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    CanvasSlider
   }
 }
 </script>
 
 <style>
-#app {
+#wrapper {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  opacity: 1 !important;
 }
 </style>

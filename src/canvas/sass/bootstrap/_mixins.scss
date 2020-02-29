@@ -1,0 +1,42 @@
+// Toggles
+//
+// Used in conjunction with global variables to enable certain theme features.
+
+// Vendor
+@import "src/canvas/sass/bootstrap/vendor/rfs";
+
+// Deprecate
+@import "src/canvas/sass/bootstrap/mixins/deprecate";
+
+// Helpers
+@import "src/canvas/sass/bootstrap/mixins/breakpoints";
+@import "src/canvas/sass/bootstrap/mixins/image";
+@import "src/canvas/sass/bootstrap/mixins/resize";
+@import "src/canvas/sass/bootstrap/mixins/screen-reader";
+@import "src/canvas/sass/bootstrap/mixins/reset-text";
+@import "src/canvas/sass/bootstrap/mixins/text-truncate";
+
+// Utilities
+@import "src/canvas/sass/bootstrap/mixins/utilities";
+
+// Components
+@import "src/canvas/sass/bootstrap/mixins/alert";
+@import "src/canvas/sass/bootstrap/mixins/buttons";
+@import "src/canvas/sass/bootstrap/mixins/caret";
+@import "src/canvas/sass/bootstrap/mixins/pagination";
+@import "src/canvas/sass/bootstrap/mixins/lists";
+@import "src/canvas/sass/bootstrap/mixins/list-group";
+@import "src/canvas/sass/bootstrap/mixins/forms";
+@import "src/canvas/sass/bootstrap/mixins/table-row";
+
+// Skins
+@import "src/canvas/sass/bootstrap/mixins/background-variant";
+@import "src/canvas/sass/bootstrap/mixins/border-radius";
+@import "src/canvas/sass/bootstrap/mixins/box-shadow";
+@import "src/canvas/sass/bootstrap/mixins/gradients";
+@import "src/canvas/sass/bootstrap/mixins/transition";
+
+// Layout
+@import "src/canvas/sass/bootstrap/mixins/clearfix";
+@import "src/canvas/sass/bootstrap/mixins/grid-framework";
+@import "src/canvas/sass/bootstrap/mixins/grid";
